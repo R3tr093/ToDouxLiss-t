@@ -18,12 +18,12 @@
 
 <p> Le tutoriel est écrit dans le cas où votre système d'exploitation est de type Linux, pour faire fonctionner Docker sous windows il vous faudra utiliser un logiciel tiers (boot2docker) que je n'ai pas eut l'utilité d'installer, mais dès que vous aurez installez docker et que vous le ferez fonctionner via boot2docker, nous n'aurons plus à prendre en compte votre système d'exploitation et vous pourrez suivre normalement le tutoriel. </p>
 
-<p> <strong>Ce tutoriel n'as pas pour objectif de vous faire comprendre comment fonctionne Docker </strong>, mais juste de déployer un environnement de développement, si vous voulez maîtrisez Docker je vous fournis une liste des sources m'ayant inspiré dans mon apprentissage de Docker, ces sources seront en français, et en anglais. </p>
+<p> <strong>Ce tutoriel n'as pas pour objectif de vous faire comprendre comment fonctionne Docker </strong>, mais juste de déployer un environnement de développement, si vous voulez maîtrisez Docker je vous fournis une liste des sources m'ayant inspiré dans mon apprentissage de Docker, ces sources seront en français. </p>
 
 <p> Nous allons donc créer un environnement simple comprenant PHP en version 7.3, un serveur Apache, et une base de donnée MySQL, bonne lecture. </p>
 
 
-<h3> Mes sources en français </h3>
+<h3> Mes sources </h3>
 <hr>
 
 <ul>    
