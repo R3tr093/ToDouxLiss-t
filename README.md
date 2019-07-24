@@ -1,6 +1,6 @@
 # Docker-PHP-MySQL
 
-<img src = " 	dockerEtiquette.svg">
+<img src = "dockerEtiquette.svg">
 
 <h3> Avant-propos </h3>
 
