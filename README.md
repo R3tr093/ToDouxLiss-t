@@ -28,7 +28,7 @@
 
 <ul>    
   <li><a href="https://www.ionos.fr/digitalguide/serveur/configuration/tutoriel-docker-installation-et-premiers-pas/">1&1 IONOS ( Excellent )</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/comment-installer-et-utiliser-docker-sur-ubuntu-18-04-fr"></a> Digital Océan </a> </li>
+    <li><a href="https://www.digitalocean.com/community/tutorials/comment-installer-et-utiliser-docker-sur-ubuntu-18-04-fr"> Digital Océan </a> </li>
     <li><a href="https://openclassrooms.com/fr/courses/2035766-optimisez-votre-deploiement-en-creant-des-conteneurs-avec-docker">OpenClassRoom </a></li>
     <li><a href="https://www.wanadev.fr/23-tuto-docker-comprendre-docker-partie1/"> Wanadev </a></li>
   <br>
