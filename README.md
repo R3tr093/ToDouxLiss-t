@@ -27,12 +27,12 @@
 <hr>
 
 <ul>    
-  <li><a href="https://www.ionos.fr/digitalguide/serveur/configuration/tutoriel-docker-installation-et-premiers-pas/"></a> 1&1 IONOS ( Excellent ) </li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/comment-installer-et-utiliser-docker-sur-ubuntu-18-04-fr"></a> Digital Océan </li>
-    <li><a href="https://openclassrooms.com/fr/courses/2035766-optimisez-votre-deploiement-en-creant-des-conteneurs-avec-docker"></a> OpenClassRoom</li>
+  <li><a href="https://www.ionos.fr/digitalguide/serveur/configuration/tutoriel-docker-installation-et-premiers-pas/">1&1 IONOS ( Excellent )</a></li>
+    <li><a href="https://www.digitalocean.com/community/tutorials/comment-installer-et-utiliser-docker-sur-ubuntu-18-04-fr"></a> Digital Océan </a> </li>
+    <li><a href="https://openclassrooms.com/fr/courses/2035766-optimisez-votre-deploiement-en-creant-des-conteneurs-avec-docker">OpenClassRoom </a></li>
     <li><a href="https://www.wanadev.fr/23-tuto-docker-comprendre-docker-partie1/"> Wanadev </a></li>
   <br>
-  <strong> Vidéos : </strong>
+  <strong> Vidéos : </strong><br>
   <li><a href="https://www.youtube.com/watch?v=SXB6KJ4u5vg"> Youtube : Débuter de zéro avec Docker en français </a></li>
   <li><a href="https://www.youtube.com/watch?v=XgKOC6X8W28"> Youtube : Tutoriel Docker : Présentation de Docker </a></li>
   
