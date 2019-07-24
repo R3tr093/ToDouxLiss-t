@@ -3,6 +3,7 @@
 <img src = "dockerEtiquette.svg"><br><br>
 
 <h3> Avant-propos </h3>
+<hr>
 
 <p> Ceci est un guide de création d'un environnement de développement avec Docker, ce guide suppose que vous êtes sur un système Linux, et que vous avez installez deux choses : </p>
 
@@ -20,3 +21,20 @@
 <p> <strong>Ce tutoriel n'as pas pour objectif de vous faire comprendre comment fonctionne Docker </strong>, mais juste de déployer un environnement de développement, si vous voulez maîtrisez Docker je vous fournis une liste des sources m'ayant inspiré dans mon apprentissage de Docker, ces sources seront en français, et en anglais. </p>
 
 <p> Nous allons donc créer un environnement simple comprenant PHP en version 7.3, un serveur Apache, et une base de donnée MySQL, bonne lecture. </p>
+
+
+<h3> Mes sources en français </h3>
+<hr>
+
+<ul>    
+  <li><a href="https://www.ionos.fr/digitalguide/serveur/configuration/tutoriel-docker-installation-et-premiers-pas/"></a> 1&1 IONOS ( Excellent ) </li>
+    <li><a href="https://www.digitalocean.com/community/tutorials/comment-installer-et-utiliser-docker-sur-ubuntu-18-04-fr"></a> Digital Océan </li>
+    <li><a href="https://openclassrooms.com/fr/courses/2035766-optimisez-votre-deploiement-en-creant-des-conteneurs-avec-docker"></a> OpenClassRoom</li>
+    <li><a href="https://www.wanadev.fr/23-tuto-docker-comprendre-docker-partie1/"> Wanadev </a></li>
+  <br>
+  <strong> Vidéos : </strong>
+  <li><a href="https://www.youtube.com/watch?v=SXB6KJ4u5vg"> Youtube : Débuter de zéro avec Docker en français </a></li>
+  <li><a href="https://www.youtube.com/watch?v=XgKOC6X8W28"> Youtube : Tutoriel Docker : Présentation de Docker </a></li>
+  
+  
+</ul>  
