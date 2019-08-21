@@ -7,6 +7,7 @@
     
 }
 
+
 #inputEmail, #inputPassword
 {
     width: 35%;
@@ -45,4 +46,53 @@
 #logh1
 {
     text-align: center;
+}
+
+
+#wrapContent2
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    
+}
+
+#listContainer
+{
+    width: 50%;
+    margin: auto;
+}
+
+.taskElts
+{
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/** SOME GLOBAL CSS **/
+
+.align-c
+{
+    text-align: center;
+}
+
+.g-link
+{
+    color: goldenrod;
+    font-size: 18px;
+}
+
+.g-link:hover
+{
+    color: goldenrod;
+    font-size: 19px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+hr
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }

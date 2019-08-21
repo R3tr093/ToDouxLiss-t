@@ -32,13 +32,6 @@ Route::get('/Form', function () {
     return view('Dashboard.Form.form');
 });
 
-Route::get('/TODO', function () {
-    return view('Dashboard.TODO.todo');
-});
-
-Route::get('/Project', function () {
-    return view('Dashboard.Project.project');
-});
 
 
 
@@ -49,4 +42,4 @@ Route::get('/Log','logController@log');
 
 Route::get('/profile','logController@profile');
 
-Route::resource('posts', 'PostController');
+Route::resource('Dashboard', 'PostController');

@@ -11,6 +11,8 @@
 <body>
 
     @include('inc.navbar')
+    @include('inc.errorsuccess')
+ 
 
 
 
