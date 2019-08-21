@@ -1,0 +1,48 @@
+
+#wrapContent
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15%;
+    
+}
+
+#inputEmail, #inputPassword
+{
+    width: 35%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+
+#Preport
+{
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+#report
+{
+    color: red;
+}
+
+#logBtn
+{
+    width: 20%;
+    margin: auto;
+}
+
+#formCheckbox
+{
+    width: 9%;
+    margin: auto;
+    margin-top: 15px;
+    
+}
+
+#logh1
+{
+    text-align: center;
+}
