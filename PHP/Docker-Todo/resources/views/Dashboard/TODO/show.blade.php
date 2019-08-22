@@ -12,18 +12,31 @@
 
     <ul>
 
+    @php
+    $i = 0;
+    @endphp
+
         <h3 id="taskList">Liste des tâches :</h3>
 
+
         @if($post->Item != "XXX")
+
+        
         <li class="taskElts">
              
           <a href="/Dashboard/{{$post->id}}/Item" title="Supprimer cette tâche."> {{$post->Item}}</a>
         
+          @php
+                  $i++;
+         @endphp
          
         
-        @endif
+        
              
         </li>
+
+
+        @endif
 
         @if($post->Item2 != "XXX")
         <li class="taskElts">
@@ -31,8 +44,18 @@
         
         <a href="/Dashboard/{{$post->id}}/Item2" title="Supprimer cette tâche.">  {{$post->Item2}}</a>
 
+        @php
+                  $i++;
+        @endphp
 
         </li>
+
+
+         
+        
+
+
+        
       
         @endif
 
@@ -41,6 +64,9 @@
         
         <a href="/Dashboard/{{$post->id}}/Item3" title="Supprimer cette tâche.">  {{$post->Item3}}</a>
 
+        @php
+                  $i++;
+         @endphp
 
         </li>
       
@@ -53,6 +79,9 @@
         
         <a href="/Dashboard/{{$post->id}}/Item4" title="Supprimer cette tâche.">  {{$post->Item4}}</a>
 
+        @php
+                  $i++;
+         @endphp
 
         </li>
       
@@ -63,6 +92,10 @@
         
         
         <a href="/Dashboard/{{$post->id}}/Item5" title="Supprimer cette tâche.">  {{$post->Item5}}</a>
+
+        @php
+                  $i++;
+         @endphp
 
 
         </li>
@@ -75,6 +108,9 @@
         
         <a href="/Dashboard/{{$post->id}}/Item6" title="Supprimer cette tâche.">  {{$post->Item6}}</a>
 
+        @php
+                  $i++;
+         @endphp
 
         </li>
       
@@ -85,7 +121,9 @@
         
         
         <a href="/Dashboard/{{$post->id}}/Item7" title="Supprimer cette tâche."> {{$post->Item7}}</a>
-
+        @php
+                  $i++;
+         @endphp
 
         </li>
       
@@ -97,6 +135,9 @@
         
         <a href="/Dashboard/{{$post->id}}/Item8" title="Supprimer cette tâche."> {{$post->Item8}}</a>
 
+        @php
+                  $i++;
+         @endphp
 
         </li>
       
@@ -108,6 +149,9 @@
         
         <a href="/Dashboard/{{$post->id}}/Item9" title="Supprimer cette tâche."> {{$post->Item9}}</a>
 
+        @php
+                  $i++;
+         @endphp
 
         </li>
       
@@ -119,6 +163,11 @@
         
         <a href="/Dashboard/{{$post->id}}/Item10" title="Supprimer cette tâche."> {{$post->Item10}}</a>
 
+        @php
+                  $i++;
+         @endphp
+
+
         </li>
       
         @endif
@@ -128,6 +177,11 @@
         
         
         <a href="/Dashboard/{{$post->id}}/Item11" title="Supprimer cette tâche."> {{$post->Item11}}</a>
+
+
+        @php
+                  $i++;
+         @endphp
 
         </li>
       
@@ -139,6 +193,11 @@
         
         <a href="/Dashboard/{{$post->id}}/Item12" title="Supprimer cette tâche."> {{$post->Item12}}</a>
 
+        @php
+                  $i++;
+         @endphp
+
+
         </li>
       
         @endif
@@ -148,6 +207,10 @@
         
         
         <a href="/Dashboard/{{$post->id}}/Item13" title="Supprimer cette tâche."> {{$post->Item13}}</a>
+
+        @php
+                  $i++;
+         @endphp
 
         </li>
       
@@ -159,6 +222,10 @@
         
         <a href="/Dashboard/{{$post->id}}/Item14" title="Supprimer cette tâche."> {{$post->Item14}}</a>
 
+        @php
+                  $i++;
+         @endphp
+
         </li>
       
         @endif
@@ -169,9 +236,23 @@
         
         <a href="/Dashboard/{{$post->id}}/Item15" title="Supprimer cette tâche."> {{$post->Item15}}</a>
 
+        @php
+                  $i++;
+         @endphp
+
         </li>
       
         @endif
+
+        <p> <b>Nombre de tâches restantes : 
+
+            @php
+                      echo $i;
+            @endphp
+
+
+        </b>
+        </p>
              
              
              
