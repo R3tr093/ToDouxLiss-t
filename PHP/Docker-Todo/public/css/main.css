@@ -1,3 +1,32 @@
+.up-c
+{
+    text-align: center;
+}
+
+.card-header
+{
+    color: white;
+    font-size: large;
+    font-family: cursive;
+    background: cornflowerblue;
+}
+
+.logInfos
+{
+    font-size: large;
+}
+
+.card
+{
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;  
+}
+
+#wrapInfo
+{
+    margin-top: 15%; 
+}
 
 #wrapContent
 {
@@ -63,12 +92,21 @@
     margin: auto;
 }
 
+#taskList
+{
+    color: darkcyan;
+    position: relative;
+    left: -30px;
+}
+
+
 .taskElts
 {
     margin-left: 10%;
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 
 /** SOME GLOBAL CSS **/
 

@@ -11,7 +11,7 @@
 <body>
 
     @include('inc.navbar')
-    
+   
  
 
 
