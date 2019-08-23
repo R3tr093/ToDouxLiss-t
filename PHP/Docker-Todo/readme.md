@@ -7,9 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Quelques liens utiles.
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
@@ -19,9 +17,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Install this project.
+##  :cd: Installation - Linux Ubuntu
 
 <p> La première chose, c'est de s'assurer d'avoir les éléments requis pour faire fonctionner ce projet. <br> Les éléments nécessaires sont les suivants : </p>
 
@@ -33,4 +29,8 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 <li>  :arrow_right: Mysql version 5.7.27 ( Ou supérieur ). </li>
 
 </ul>
+
+<p> Nous allons aborder l'installation sur Ubuntu Linux. Je n'ai pas pu mettre mon projet en développement sur MacOS ou Windows, aussi si vous poursuivez cette démarche n'hésiter pas à mes partager vos ressources pour que d'autres personnes puissent profiter du guide d'installation pour leur système d'exploitation.</p>
+
+<p> Pour l'installation des outils nécessaires j'ai suivi le guide de ce <a href="https://linuxhint.com/install-laravel-on-ubuntu/" target="_blank"> <i></a></p>
 
