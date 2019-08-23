@@ -52,6 +52,6 @@
 
 <p>:arrow_right: <b>sudo apt-get install php-xml </b><em>( Dépaquetage du fichier php-xml)</em></p>
 
-<p>:arrow_right: <b> curl -sS https://getcomposer.org/installer | sudo php ----install-dir=/usr/local/bin --filename=composer</b><em>( Installation de Composer)</em></p>
+<p>:arrow_right: <b> curl -sS https://getcomposer.org/installer | sudo php ----install-dir=/usr/local/bin --filename=composer</b><em><br>( Installation de Composer)</em></p>
 
 <p> :white_check_mark: <em> Après cette commande vous pouvez vérifier la présence de composer en tapant <b> composer </b> dans votre terminal </em></p>
