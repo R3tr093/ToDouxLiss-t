@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## Quelques liens utiles.
+##  :page_facing_up: Quelques liens utiles.
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
@@ -32,5 +32,5 @@
 
 <p> Nous allons aborder l'installation sur Ubuntu Linux. Je n'ai pas pu mettre mon projet en développement sur MacOS ou Windows, aussi si vous poursuivez cette démarche n'hésiter pas à mes partager vos ressources pour que d'autres personnes puissent profiter du guide d'installation pour leur système d'exploitation.</p>
 
-<p> Pour l'installation des outils nécessaires j'ai suivi le guide de ce <a href="https://linuxhint.com/install-laravel-on-ubuntu/" target="_blank"> linux hint<i></a></p>
+<p> Pour l'installation des outils nécessaires j'ai suivi le guide de <a href="https://linuxhint.com/install-laravel-on-ubuntu/" target="_blank"> linux hint<i></a></p>
 
