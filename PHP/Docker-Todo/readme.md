@@ -7,6 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+
+
+
 ##  :page_facing_up: Quelques liens utiles.
 
 
@@ -126,6 +129,23 @@
 <p> Vous devriez en avoir terminer avec les installations, pour le déployement de mon projet vous aurez besoin d'une base de données donc vous aurez accès au informations de connexion nécessaires. </p>
 
 <p>Voici un lien qui répertorie bon nombre de commande utiles en Mysql  <a href="http://www.zbeanztech.com/blog/important-mysql-commands" target="_blank"> <i>http://www.zbeanztech.com/blog/important-mysql-commands</i></a></p>
+
+## :cd: Installation de Node.js
+
+<p> Pour l'installation de Node.js j'ai suivi le guide de <a href="https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/" target="_blank"> <i>TecAdmin</i></a></p>
+
+<p>:arrow_right: <b>  sudo apt-get install curl </b><em><br>( Déployement du PPA )</em></p>
+
+<p>:arrow_right: <b> curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - </b><em><br>( Déployement du PPA  )</em></p>
+
+<p>:arrow_right: <b> sudo apt-get install nodejs </b><em><br>( Installation de Node.js )</em></p>
+
+<p>:arrow_right: <b> node -v  </b><em><br>( Vérification de la version de Node.js )</em></p>
+
+<p>:arrow_right: <b> npm -v   </b><em><br>( Vérification de la version de npm )</em></p>
+
+<p>  :star2: À ce stade vous posséder tout l'environnement nécessaires pour déployer la ToDo List </p>
+
 
 ##  :computer: Déployement de la todouxliss't
 
