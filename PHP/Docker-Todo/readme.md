@@ -32,5 +32,5 @@
 
 <p> Nous allons aborder l'installation sur Ubuntu Linux. Je n'ai pas pu mettre mon projet en développement sur MacOS ou Windows, aussi si vous poursuivez cette démarche n'hésiter pas à mes partager vos ressources pour que d'autres personnes puissent profiter du guide d'installation pour leur système d'exploitation.</p>
 
-<p> Pour l'installation des outils nécessaires j'ai suivi le guide de ce <a href="https://linuxhint.com/install-laravel-on-ubuntu/" target="_blank"> <i></a></p>
+<p> Pour l'installation des outils nécessaires j'ai suivi le guide de ce <a href="https://linuxhint.com/install-laravel-on-ubuntu/" target="_blank"> linux hint<i></a></p>
 
