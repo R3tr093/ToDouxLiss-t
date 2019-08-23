@@ -132,7 +132,7 @@
 
 <p> Pour commencer nous allons cloner le repo, je ne vous fait pas l'affront de vous écrire la commande  :stuck_out_tongue_closed_eyes: . </p>
 
-<p> Une fois le repo cloner, vous êtes l'heureux propriétaire d'un dossier nommer<b>  " ToDouxLiss-t ", ouvez votre terminal entrez dans ce dossier et naviguez jusqu'au dossier nommer : <b> Docker-Todo </b> pour lancer les commandes qui vont suivre. </p>
+<p> Une fois le repo cloner, vous êtes l'heureux propriétaire d'un dossier nommer<b>  " ToDouxLiss-t "</b>, ouvez votre terminal entrez dans ce dossier et naviguez jusqu'au dossier nommer : <b> Docker-Todo </b> pour lancer les commandes qui vont suivre. </p>
 
 <p>:arrow_right: <b>  npm install  </b> <em>(Installation de certaines dépendances)</em></p>
 
