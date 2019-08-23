@@ -166,4 +166,6 @@
 
 <em>Si vous obtenez en retour " Nothing to migrate " alors tout va bien.</em>
 
-<p> En vous rendant à l'adresse <a href="http://localhost:8000/" target="_blank"> http://localhost:8000/ </a> vous devriez maintenant avoir accès à votre toDouLiss't </p>
+<p> En vous rendant à l'adresse <a href="http://localhost:8000/" target="_blank"> http://localhost:8000/ </a> vous devriez maintenant avoir accès à votre toDouLiss't.</p>
+
+<p> Ce guide est terminé, en éspérant que vous n'aurez pas rencontrez trop de difficultés pour le déployement ou les installations, j'ai vérifier chaque commande de ce readme, et tout fonctionne de mon coté, si toutefois vous rencontrez un problème pour une étape ou une erreur quelque part, n'hésitez pas à me contactez pour m'en faire part.  :panda_face: </p>
