@@ -116,6 +116,11 @@
 
 <em> Remplacez database_name par laravel ( dans notre cas) , et 'username'@'localhost' par 'testuser'@'localhost' ( dans notre cas). </em>
 
+<p>:arrow_right: <b> SET PASSWORD FOR 'testuser'@'localhost' = PASSWORD('password'); </b> <em>( Défini un mot de passe à l'utilisateur)</em></p>
+<em> Vous pouvez modifier 'testuser' par le nom de l'utilisateur et PASSWORD('password') en mettant dans les parenthèses le mot de passe désiré.</em>
+
+
+
 <p>:arrow_right: <b>  FLUSH PRIVILEGES; </b> <em>(Sauvegardez les changements effectués)</em></p>
 
 <p> Vous devriez en avoir terminer avec les installations, pour le déployement de mon projet vous aurez besoin d'une base de données donc vous aurez accès au informations de connexion nécessaires. </p>
@@ -135,5 +140,10 @@
 
 <img src="env.png">
 
+<p> Dans les lignes en surbrillance sur l'image précédente, remplacer les champs par ceux qui correspondent à celles de votre base de données </p>
+
 <p>:arrow_right: <b>  php artisan migrate  </b> <em>(Va créer des tables et champs nécessaires)</em></p>
+
 <em>Si vous obtenez en retour " Nothing to migrate " alors tout va bien.</em>
+
+<p> En vous rendant à l'adresse <a href="http://localhost:8000/" target="_blank"> http://localhost:8000/ </a> vous devriez maintenant avoir accès à votre toDouLiss't </p>
