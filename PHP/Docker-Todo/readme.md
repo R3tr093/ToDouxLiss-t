@@ -26,6 +26,11 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 <p> La première chose, c'est de s'assurer d'avoir les éléments requis pour faire fonctionner ce projet. <br> Les éléments nécessaires sont les suivants : </p>
 
 <ul> 
-<li> :link: PHP version 7.3.8 </li>
+<li>  :arrow_right: PHP version 7.3.8 ( Ou supérieur ).</li>
+<li>  :arrow_right: Composer version 1.9.0 ( Ou supérieur ). </li>
+<li>  :arrow_right: Laravel 5.8.32 ( Ou supérieur ). </li>
+<li>  :arrow_right: Node version 10.16.0 ( Ou supérieur ). </li>
+<li>  :arrow_right: Mysql version 5.7.27 ( Ou supérieur ). </li>
+
 </ul>
 
