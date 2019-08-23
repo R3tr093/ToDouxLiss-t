@@ -122,4 +122,18 @@
 
 <p>Voici un lien qui répertorie bon nombre de commande utiles en Mysql  <a href="http://www.zbeanztech.com/blog/important-mysql-commands" target="_blank"> <i>http://www.zbeanztech.com/blog/important-mysql-commands</i></a></p>
 
+##  :computer: Déployement de la todouxliss't
 
+
+<p> Pour commencer nous allons cloner le repo, je ne vous fait pas l'affront de vous écrire la commande  :stuck_out_tongue_closed_eyes: . </p>
+
+<p> Une fois le repo cloner, vous êtes l'heureux propriétaire d'un dossier nommer<b>  " ToDouxLiss-t ", ouvez votre terminal entrez dans ce dossier et naviguez jusqu'au dossier nommer : <b> Docker-Todo </b> pour lancer les commandes qui vont suivre. </p>
+
+<p>:arrow_right: <b>  npm install  </b> <em>(Installation de certaines dépendances)</em></p>
+
+<p> Vous allez devoir vérifier certaines informations contenue dans le fichier .env ( ce fichier peut être masquer) contenu à la racine de votre projet, et donc du dossier Docker-Todo </p>
+
+<img src="env.png">
+
+<p>:arrow_right: <b>  php artisan migrate  </b> <em>(Va créer des tables et champs nécessaires)</em></p>
+<em>Si vous obtenez en retour " Nothing to migrate " alors tout va bien.</em>
