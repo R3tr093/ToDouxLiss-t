@@ -9,6 +9,9 @@
 
 ##  :page_facing_up: Quelques liens utiles.
 
+
+
+
 - :white_check_mark: [Simple, fast routing engine](https://laravel.com/docs/routing).
 - :white_check_mark: [Powerful dependency injection container](https://laravel.com/docs/container).
 - :white_check_mark: Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
@@ -38,7 +41,7 @@
 <hr>
 <p> Pour faire l'installation de PHP, nous allons exécuter dans notre terminal les commandes ci-dessous dans cette ordre : </p>
 
-<p>:arrow_right: <b>sudo apt-get update</b>  <em>( Mise à jour du gestionnaire de paquet )</em>.<p>
+<p>:arrow_right: <b>sudo apt update</b>  <em>( Mise à jour du gestionnaire de paquet )</em>.<p>
 
 <p>:arrow_right: <b>sudo apt-get install php </b><em>( Installation de PHP )</em></p>
 
@@ -55,3 +58,68 @@
 <p>:arrow_right: <b> curl -sS https://getcomposer.org/installer | sudo php ----install-dir=/usr/local/bin --filename=composer</b><em><br>( Installation de Composer)</em></p>
 
 <p> :white_check_mark: <em> Après cette commande vous pouvez vérifier la présence de composer en tapant <b> composer </b> dans votre terminal </em></p>
+
+
+<p>:arrow_right: <b>sudo chown -R $USER .composer/ </b><em><br>(Modification des permissions du dossier /composer)</em></p>
+
+
+<p>:arrow_right: <b>sudo apt-get install git </b><em><br>( Installation d'un package Git)</em></p>
+
+<p>:arrow_right: <b>echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> ~/.bashrc </b><em><br>(Vous permettras de lancez des commandes Laravel depuis votre terminal)</em></p>
+
+
+<p>:arrow_right: <b>source ~/.bashrc </b><em><br>(Vous permettras de lancez des commandes Laravel depuis votre terminal)</em></p>
+ 
+<p>:arrow_right: <b> sudo composer global require "laravel/installer" </b><em><br>( Installation de Laravel)</em></p>
+
+ 
+## :cd: Création d'un projet Laravel
+<hr>
+
+
+
+<p>:arrow_right: <b>  composer create-project --prefer-dist laravel/laravel blog </b><em><br>( Création d'un dossier blog compatible avec Laravel)</em></p>
+
+<p>:arrow_right: <b>  php artisan key:generate </b><em><br>( Génére une clé pour votre projet )</em></p>
+
+<p> Il ne vous manque plus qu'une base de données pour pouvoir utiliser Laravel, j'ai choisis d'installer Mysql et de l'utiliser via le CLI de Ubuntu, mais vous pouvez vous renseignez pour obtenir une interface graphique en installant PhpMyAdmin par exemple </p>
+ 
+
+## :cd: Installation de Mysql et création d'une base de données.
+<hr> 
+
+
+<p> Pour l'installation de Mysql j'ai suivi le guide de <a href="https://itsfoss.com/install-mysql-ubuntu/" target="_blank"> <i>itsfoss</i></a></p>
+
+<p>:arrow_right: <b>  sudo apt install mysql-server -y </b><em><br>( Installation de Mysql )</em></p>
+
+
+<p>:arrow_right: <b>  sudo mysql -v </b><em><br>( Vérification de la version de Mysql )</em></p>
+
+
+<p> Nous allons procéder à la création de la base de données, pour exécuter des commandes mysql vous pouvez lancez la commande ci-dessous : </p>
+
+<p>:arrow_right: <b>  mysql -u root -p  </b></p>
+
+<p> Nous allons maintenant créer un utilisateur . </p>
+
+<p>:arrow_right: <b>  CREATE USER 'testuser'@'localhost'; </b></p>
+<em>Remplacez 'testuser' par le nom d'utilisateur désiré.</em>
+
+<p>:arrow_right: <b>  SELECT User,Host FROM mysql.user; </b> <em>( Affiche les utilisateurs)</em></p>
+
+<p>:arrow_right: <b>  CREATE DATABASE laravel; </b> <em>( Crée une base de données avec pour nom : laravel)</em></p>
+
+<p>:arrow_right: <b> SHOW DATABASES; </b> <em>( Vérification de la liste des bases de données)</em></p>
+
+<p>:arrow_right: <b> GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'localhost'; </b> <em>( Défini les priviléges nécessaires à l'utilisateur)</em></p>
+
+<em> Remplacez database_name par laravel ( dans notre cas) , et 'username'@'localhost' par 'testuser'@'localhost' ( dans notre cas). </em>
+
+<p>:arrow_right: <b>  FLUSH PRIVILEGES; </b> <em>(Sauvegardez les changements effectués)</em></p>
+
+<p> Vous devriez en avoir terminer avec les installations, pour le déployement de mon projet vous aurez besoin d'une base de données donc vous aurez accès au informations de connexion nécessaires. </p>
+
+<p>Voici un lien qui répertorie bon nombre de commande utiles en Mysql  <a href="http://www.zbeanztech.com/blog/important-mysql-commands" target="_blank"> <i>http://www.zbeanztech.com/blog/important-mysql-commands</i></a></p>
+
+
