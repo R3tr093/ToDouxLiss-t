@@ -18,7 +18,7 @@
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 ##  :cd: Installation - Linux Ubuntu
-
+<hr>
 <p> La première chose, c'est de s'assurer d'avoir les éléments requis pour faire fonctionner ce projet. <br> Les éléments nécessaires sont les suivants : </p>
 
 <ul> 
@@ -32,5 +32,26 @@
 
 <p> Nous allons aborder l'installation sur Ubuntu Linux. Je n'ai pas pu mettre mon projet en développement sur MacOS ou Windows, aussi si vous poursuivez cette démarche n'hésiter pas à mes partager vos ressources pour que d'autres personnes puissent profiter du guide d'installation pour leur système d'exploitation.</p>
 
-<p> Pour l'installation des outils nécessaires j'ai suivi le guide de <a href="https://linuxhint.com/install-laravel-on-ubuntu/" target="_blank"> linux hint<i></a></p>
+<p> Pour l'installation des outils nécessaires j'ai suivi le guide de <a href="https://linuxhint.com/install-laravel-on-ubuntu/" target="_blank"> linux hint<i></a> nous allons donc voir comment cela fonctionne. </p>
 
+## :cd: Installation de PHP
+<hr>
+<p> Pour faire l'installation de PHP, nous allons exécuter dans notre terminal les commandes ci-dessous dans cette ordre : </p>
+
+<p>:arrow_right: <b>sudo apt-get update</b>  <em>( Mise à jour du gestionnaire de paquet )</em>.<p>
+
+<p>:arrow_right: <b>sudo apt-get install php </b><em>( Installation de PHP )</em></p>
+
+<p>:arrow_right: <b>php -v </b><em>( Vérification de votre version de PHP )</em></p>
+
+<p>:arrow_right: <b>sudo apt-get install curl</b><em>( Installation d'extensions nécessaires au fonctionnement de Laravel)</em></p>
+
+<p>:arrow_right: <b>sudo apt-get install php7.1-zip </b><em>( Dépaquetage du fichier php7.1-zip )</em></p>
+
+<p>:arrow_right: <b>sudo apt-get install php7.1-mbstring </b><em>( Dépaquetage du fichier php7.1-mbstring)</em></p>
+
+<p>:arrow_right: <b>sudo apt-get install php-xml </b><em>( Dépaquetage du fichier php-xml)</em></p>
+
+<p>:arrow_right: <b> curl -sS https://getcomposer.org/installer | sudo php ----install-dir=/usr/local/bin --filename=composer</b><em>( Installation de Composer)</em></p>
+
+<p> :white_check_mark: <em> Après cette commande vous pouvez vérifier la présence de composer en tapant <b> composer </b> dans votre terminal </em></p>
