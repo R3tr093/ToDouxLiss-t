@@ -11,6 +11,9 @@ class PostController extends Controller
 
   public function Item($id)
   {
+    
+    
+    
     $post = Post::find($id);
     $post->Item = "XXX";
   
@@ -191,6 +194,8 @@ class PostController extends Controller
 
         // Pagination don't working.
         $posts = Post::orderBy('created_at','desc')->paginate(99);
+
+        $catch = isset($posts);
         
         return view('Dashboard.TODO.todo')->with('posts',$posts);
     }

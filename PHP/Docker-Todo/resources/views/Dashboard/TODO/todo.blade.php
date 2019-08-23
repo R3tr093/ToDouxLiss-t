@@ -11,26 +11,43 @@
      
     @if(count($posts)>= 1)
 
+    @php
+    $i = 0;
+    @endphp
 
         @foreach($posts as $post)
             <div class="well">
            
             @if($post->User ===  Auth::user()->name)
-                <h3><a href="/Dashboard/{{$post->id}}">{{$post->List}}</a></h3>
+                <h3><a class="a-NoStyle" href="/Dashboard/{{$post->id}}">{{$post->List}}</a></h3>
                 <small> Crée le {{$post->created_at->format('d-m-Y')}}</small>
                 <br>
                 <small>État : {{$post->Statement}}</small>
-                <p><a href="/Dashboard/{{$post->id}}"> Voir la liste. </a></p>
+                <p><a class="a-NoStyle" href="/Dashboard/{{$post->id}}"> Voir la liste. </a></p>
 
             </div>
+
+            @php
+                  $i++;
+            @endphp
             <hr>
             @endif
 
         @endforeach
 
+        <p class="countReport"> <b>Nombre de TouDouLiss't restantes : 
+
+          @php
+              echo $i;
+          @endphp
+        </b>
+        </p>
+
     @else
         <p> Aucune ToDouxLiss't en cours.</p>
     @endif
   </div>
+
+
     
 @endsection

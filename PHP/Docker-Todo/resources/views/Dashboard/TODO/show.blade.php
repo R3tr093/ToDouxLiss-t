@@ -3,10 +3,23 @@
 @section('content')
 
   <div id="wrapContent2">
+
     
+
     <h1 class="align-c">{{$post->List}}</h1><hr>
 
-    <p><b> Auteur :</b> {{$post->User}}<br> <b>État : </b>{{$post->Statement}} <br><small> <i>Crée le {{$post->created_at->format('d-m-Y')}}</i></small>  </p>
+    <div class="box-set">
+
+    <p class="box-txt"><b> Auteur :</b>
+    
+    <a href="/profile" class="box-txt"> {{$post->User}} </a>
+
+    <br> <b>État : </b>{{$post->Statement}} <br><small> <i>Crée le {{$post->created_at->format('d-m-Y')}}</i></small>  </p>
+
+
+    </div>
+    
+
 
     <div id="listContainer">
 
@@ -24,7 +37,7 @@
         
         <li class="taskElts">
              
-          <a href="/Dashboard/{{$post->id}}/Item" title="Supprimer cette tâche."> {{$post->Item}}</a>
+          <a class="taskLinks" href="/Dashboard/{{$post->id}}/Item" title="Supprimer cette tâche."> {{$post->Item}}</a>
         
           @php
                   $i++;
@@ -42,7 +55,7 @@
         <li class="taskElts">
         
         
-        <a href="/Dashboard/{{$post->id}}/Item2" title="Supprimer cette tâche.">  {{$post->Item2}}</a>
+        <a class="taskLinks" href="/Dashboard/{{$post->id}}/Item2" title="Supprimer cette tâche.">  {{$post->Item2}}</a>
 
         @php
                   $i++;
@@ -62,7 +75,7 @@
         @if($post->Item3 != "XXX")
         <li class="taskElts">
         
-        <a href="/Dashboard/{{$post->id}}/Item3" title="Supprimer cette tâche.">  {{$post->Item3}}</a>
+        <a  class="taskLinks" href="/Dashboard/{{$post->id}}/Item3" title="Supprimer cette tâche.">  {{$post->Item3}}</a>
 
         @php
                   $i++;
@@ -77,7 +90,7 @@
         <li class="taskElts">
         
         
-        <a href="/Dashboard/{{$post->id}}/Item4" title="Supprimer cette tâche.">  {{$post->Item4}}</a>
+        <a class="taskLinks" href="/Dashboard/{{$post->id}}/Item4" title="Supprimer cette tâche.">  {{$post->Item4}}</a>
 
         @php
                   $i++;
@@ -91,7 +104,7 @@
         <li class="taskElts">
         
         
-        <a href="/Dashboard/{{$post->id}}/Item5" title="Supprimer cette tâche.">  {{$post->Item5}}</a>
+        <a class="taskLinks" href="/Dashboard/{{$post->id}}/Item5" title="Supprimer cette tâche.">  {{$post->Item5}}</a>
 
         @php
                   $i++;
@@ -106,7 +119,7 @@
         <li class="taskElts">
         
         
-        <a href="/Dashboard/{{$post->id}}/Item6" title="Supprimer cette tâche.">  {{$post->Item6}}</a>
+        <a class="taskLinks" href="/Dashboard/{{$post->id}}/Item6" title="Supprimer cette tâche.">  {{$post->Item6}}</a>
 
         @php
                   $i++;
@@ -120,7 +133,7 @@
         <li class="taskElts">
         
         
-        <a href="/Dashboard/{{$post->id}}/Item7" title="Supprimer cette tâche."> {{$post->Item7}}</a>
+        <a class="taskLinks" href="/Dashboard/{{$post->id}}/Item7" title="Supprimer cette tâche."> {{$post->Item7}}</a>
         @php
                   $i++;
          @endphp
@@ -133,7 +146,7 @@
         <li class="taskElts">
         
         
-        <a href="/Dashboard/{{$post->id}}/Item8" title="Supprimer cette tâche."> {{$post->Item8}}</a>
+        <a class="taskLinks" href="/Dashboard/{{$post->id}}/Item8" title="Supprimer cette tâche."> {{$post->Item8}}</a>
 
         @php
                   $i++;
@@ -147,7 +160,7 @@
         <li class="taskElts">
         
         
-        <a href="/Dashboard/{{$post->id}}/Item9" title="Supprimer cette tâche."> {{$post->Item9}}</a>
+        <a  class="taskLinks" href="/Dashboard/{{$post->id}}/Item9" title="Supprimer cette tâche."> {{$post->Item9}}</a>
 
         @php
                   $i++;
@@ -161,7 +174,7 @@
         <li class="taskElts">
         
         
-        <a href="/Dashboard/{{$post->id}}/Item10" title="Supprimer cette tâche."> {{$post->Item10}}</a>
+        <a class="taskLinks" href="/Dashboard/{{$post->id}}/Item10" title="Supprimer cette tâche."> {{$post->Item10}}</a>
 
         @php
                   $i++;
@@ -176,7 +189,7 @@
         <li class="taskElts">
         
         
-        <a href="/Dashboard/{{$post->id}}/Item11" title="Supprimer cette tâche."> {{$post->Item11}}</a>
+        <a class="taskLinks" href="/Dashboard/{{$post->id}}/Item11" title="Supprimer cette tâche."> {{$post->Item11}}</a>
 
 
         @php
@@ -191,7 +204,7 @@
         <li class="taskElts">
         
         
-        <a href="/Dashboard/{{$post->id}}/Item12" title="Supprimer cette tâche."> {{$post->Item12}}</a>
+        <a class="taskLinks" href="/Dashboard/{{$post->id}}/Item12" title="Supprimer cette tâche."> {{$post->Item12}}</a>
 
         @php
                   $i++;
@@ -206,7 +219,7 @@
         <li class="taskElts">
         
         
-        <a href="/Dashboard/{{$post->id}}/Item13" title="Supprimer cette tâche."> {{$post->Item13}}</a>
+        <a class="taskLinks" href="/Dashboard/{{$post->id}}/Item13" title="Supprimer cette tâche."> {{$post->Item13}}</a>
 
         @php
                   $i++;
@@ -220,7 +233,7 @@
         <li class="taskElts">
         
         
-        <a href="/Dashboard/{{$post->id}}/Item14" title="Supprimer cette tâche."> {{$post->Item14}}</a>
+        <a class="taskLinks" href="/Dashboard/{{$post->id}}/Item14" title="Supprimer cette tâche."> {{$post->Item14}}</a>
 
         @php
                   $i++;
@@ -234,7 +247,7 @@
         <li class="taskElts">
         
         
-        <a href="/Dashboard/{{$post->id}}/Item15" title="Supprimer cette tâche."> {{$post->Item15}}</a>
+        <a class="taskLinks" href="/Dashboard/{{$post->id}}/Item15" title="Supprimer cette tâche."> {{$post->Item15}}</a>
 
         @php
                   $i++;
@@ -244,7 +257,7 @@
       
         @endif
 
-        <p> <b>Nombre de tâches restantes : 
+        <p class="countReport"> <b>Nombre de tâches restantes : 
 
             @php
                       echo $i;
