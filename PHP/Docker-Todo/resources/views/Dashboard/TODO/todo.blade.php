@@ -16,13 +16,37 @@
     @endphp
 
         @foreach($posts as $post)
-            <div class="well">
+            
            
-            @if($post->User ===  Auth::user()->name)
+            @if($post->User ===  Auth::user()->name || $post->Share ===  Auth::user()->email )
+                <div class="well">
                 <h3><a class="a-NoStyle" href="/Dashboard/{{$post->id}}">{{$post->List}}</a></h3>
                 <small> Crée le {{$post->created_at->format('d-m-Y')}}</small>
                 <br>
                 <small>État : {{$post->Statement}}</small>
+                <small>
+                @if($post->Share != "XXX")
+                  
+                  <br>
+                  Partage avec : {{$post->Share}} 
+
+                  @endif 
+                
+                  @if($post->Share2 != "XXX")
+
+                  , {{$post->Share2}}
+
+                  @endif
+
+                  @if($post->Share3 != "XXX")
+
+                  , {{$post->Share3}}
+
+                  .
+                @endif
+                </small>
+
+
                 <p><a class="a-NoStyle" href="/Dashboard/{{$post->id}}"> Voir la liste. </a></p>
 
             </div>

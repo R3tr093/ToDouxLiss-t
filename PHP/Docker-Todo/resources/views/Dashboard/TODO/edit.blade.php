@@ -94,8 +94,26 @@
 
     {{Form::label('item15','Modifier une tâche : ')}}
     {{Form::text('item15',$post->Item15, ['class' => 'form-control editInput'])}}
-    </div>
+    
 
+    @if($post->User ===  Auth::user()->name )
+    
+    <br><br>
+
+    {{Form::label('share','Email de partage  : ')}}
+    {{Form::text('share',$post->Share, ['class' => 'form-control editInput', 'placeholder' => "Entrez l'adresse Email d'autres utilisateurs... ( Champ facultatif )", 'title' => 'Ce champ est facultatif.'])}}
+
+    <br><br>
+
+    {{Form::label('share2','Email de partage  : ')}}
+    {{Form::text('share2',$post->Share2, ['class' => 'form-control editInput', 'placeholder' => "Entrez l'adresse Email d'autres utilisateurs... ( Champ facultatif )", 'title' => 'Ce champ est facultatif.'])}}
+
+    <br><br>
+
+    {{Form::label('share3','Email de partage  : ')}}
+    {{Form::text('share3',$post->Share3, ['class' => 'form-control editInput', 'placeholder' => "Entrez l'adresse Email d'autres utilisateurs... ( Champ facultatif )", 'title' => 'Ce champ est facultatif.'])}}
+
+    @endif
 
     
     
@@ -106,6 +124,8 @@
     {{Form::submit('Modifier la TodouxLiss\'t', ['class' => 'btn btn-lg btn-primary w-b-fix'])}}
     
     {!! Form::close() !!}
+
+    </div>
                 
   </div>
 

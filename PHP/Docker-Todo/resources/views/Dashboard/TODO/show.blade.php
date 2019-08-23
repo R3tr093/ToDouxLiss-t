@@ -8,14 +8,31 @@
 
     <h1 class="align-c">{{$post->List}}</h1><hr>
 
-    <div class="box-set">
+    <div class="box-set" id="popup"  onclick="document.getElementById('popup').style.display='none';return false;" title="Cliquez pour masquer les informations." >
 
-    <p class="box-txt"><b> Auteur :</b>
+    <p class="box-txt"><b> Auteur :</b> <span class="box-txt"> {{$post->User}} </span> </p>
+
+    <br> <b class="box-txt">État : </b> <span class="box-txt"> {{$post->Statement}}</span> <br>
+  
+    @if($post->Share != "XXX")
+                  <br>
+                  <small class="box-txt">Partage avec :   <span class="box-txt"> {{$post->Share}} </span></small>
+
+                  @endif 
+                
+                  @if($post->Share2 != "XXX")
+
+                  <br><small class="box-txt">Partage avec : <span class="box-txt"> {{$post->Share2}} </span></small>
+
+                  @endif
+
+                  @if($post->Share3 != "XXX")
+
+                  <br><small class="box-txt">Partage avec :  <span class="box-txt"> {{$post->Share3}} </span></small>
+                  @endif
     
-    <a href="/profile" class="box-txt"> {{$post->User}} </a>
 
-    <br> <b>État : </b>{{$post->Statement}} <br><small> <i>Crée le {{$post->created_at->format('d-m-Y')}}</i></small>  </p>
-
+    <br><br><small class="box-txt"> <i>Crée le {{$post->created_at->format('d-m-Y')}}</i></small> 
 
     </div>
     
@@ -285,15 +302,25 @@
 
 
     </ul>  
+    @if($post->User ===  Auth::user()->name )
     
-    
-
-    <hr>
     {!! Form::open(['action' => ['PostController@destroy', $post->id], 'method' => 'POST']) !!}
     {!! Form::hidden('_method','DELETE') !!}
     <a href="/Dashboard/{{$post->id}}/edit" class="btn btn-lg btn-primary" style="margin-right: 20px;"> Modifier</a>
     {{Form::submit('Supprimer la TodouxLiss\'t', ['class' => 'btn btn-lg btn-danger'])}}    
     {!! Form::close() !!}
+
+    @else
+      {!! Form::open(['action' => ['PostController@destroy', $post->id], 'method' => 'POST']) !!}
+      <a href="/Dashboard/{{$post->id}}/edit" class="btn btn-lg btn-primary" style="margin-right: 20px;"> Modifier</a>
+      {!! Form::close() !!}
+
+    @endif
+
+    
+
+    <hr>
+
 
 
     <br><br>

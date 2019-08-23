@@ -32,6 +32,9 @@ class CreatePostsTable extends Migration
             $table->string('Item13');
             $table->string('Item14');
             $table->string('Item15');
+            $table->string('Share');
+            $table->string('Share2');
+            $table->string('Share3');
             $table->string('Statement');
             $table->timestamps();
         });

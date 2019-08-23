@@ -98,6 +98,24 @@
     {{Form::label('item15','Définir une tâche : ')}}
     {{Form::text('item15','', ['class' => 'form-control', 'placeholder' => 'Que devez vous faire ? ( Champ facultatif )', 'title' => 'Ce champ est facultatif.'])}}
 
+    <br><br>
+
+    {{Form::label('share','Email de partage  : ')}}
+    {{Form::text('share','', ['class' => 'form-control', 'placeholder' => "Entrez l'adresse Email d'autres utilisateurs... ( Champ facultatif )", 'title' => 'Ce champ est facultatif.'])}}
+
+    <br><br>
+
+    {{Form::label('share2','Email de partage  : ')}}
+    {{Form::text('share2','', ['class' => 'form-control', 'placeholder' => "Entrez l'adresse Email d'autres utilisateurs... ( Champ facultatif )", 'title' => 'Ce champ est facultatif.'])}}
+
+    <br><br>
+
+    {{Form::label('share3','Email de partage  : ')}}
+    {{Form::text('share3','', ['class' => 'form-control', 'placeholder' => "Entrez l'adresse Email d'autres utilisateurs... ( Champ facultatif )", 'title' => 'Ce champ est facultatif.'])}}
+
+   
+
+
     </div>
     <br>
     {{Form::submit('Créer votre TodouxLiss\'t', ['class' => 'btn btn-lg btn-primary'])}}

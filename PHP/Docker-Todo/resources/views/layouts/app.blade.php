@@ -54,9 +54,17 @@ var wellElts = document.querySelectorAll(".well");
 
 var colors = ['red','goldenrod','cornflowerblue','antiquewhite'];
 
+var colors2 = ['red','goldenrod','cornflowerblue','black'];
+
 var i = 0;
 
 var random = Math.floor(Math.random() * Math.floor(wellElts.length));
+
+var nav = document.getElementById("navTarget");
+
+var random2 = Math.floor(Math.random() * Math.floor(colors2.length));
+
+nav.style.backgroundColor = colors2[random2];
 
 while ( i < wellElts.length)
 {

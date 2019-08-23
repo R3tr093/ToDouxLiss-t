@@ -10,7 +10,7 @@
                     <ul class="navbar-nav mr-auto">
 
 
-                    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                    <nav class="navbar navbar-expand-md  fixed-top" id="navTarget">
                     <a class="nav-link navbar-brand" href="/logout">Log out</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,6 +24,12 @@
                      <li class="nav-item">
                      <a class="nav-link" href="/Dashboard">Dashboard</a>
                     </li>
+
+                    <li class="nav-item">
+                     <a class="nav-link" href="https://github.com/R3tr093/" title="Contactez le développeur.">Contact</a>
+                    </li>
+
+
                      <li class="nav-item dropdown">
                      </ul>
                      </div>

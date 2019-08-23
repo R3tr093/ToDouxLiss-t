@@ -356,6 +356,42 @@ class PostController extends Controller
             $post->Item15 = $request->input('item15');
         }  
 
+        if ($request->input('item15') === null) {
+            $post->Item15 = "XXX";
+          }
+
+        else
+        {
+            $post->Item15 = $request->input('item15');
+        }
+        
+        if ($request->input('share') === null) {
+          $post->Share = "XXX";
+        }
+
+        else
+        {
+          $post->Share = $request->input('share');
+        }
+    
+        if ($request->input('share2') === null) {
+          $post->Share2 = "XXX";
+        }
+
+        else
+        {
+          $post->Share2 = $request->input('share2');
+        }
+        
+        if ($request->input('share3') === null) {
+          $post->Share3 = "XXX";
+        }
+
+        else
+        {
+          $post->Share3 = $request->input('share');
+        } 
+
         $post->User = app('Illuminate\Contracts\Auth\Guard')->user()->name;
         $post->Statement = $request->input('statement');
         $post->save();
@@ -535,6 +571,34 @@ class PostController extends Controller
         {
             $post->Item15 = $request->input('item15');
         }  
+
+                
+        if ($request->input('share') === null) {
+          $post->Share = "XXX";
+        }
+
+        else
+        {
+          $post->Share = $request->input('share');
+        }
+    
+        if ($request->input('share2') === null) {
+          $post->Share2 = "XXX";
+        }
+
+        else
+        {
+          $post->Share2 = $request->input('share2');
+        }
+        
+        if ($request->input('share3') === null) {
+          $post->Share3 = "XXX";
+        }
+
+        else
+        {
+          $post->Share3 = $request->input('share3');
+        } 
 
 
         $post->Statement = $request->input('statement');
