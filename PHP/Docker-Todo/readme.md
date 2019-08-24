@@ -94,10 +94,10 @@
 
 <p> Pour l'installation de Mysql j'ai suivi le guide de <a href="https://itsfoss.com/install-mysql-ubuntu/" target="_blank"> <i>itsfoss</i></a></p>
 
-<p>:arrow_right: <b>  sudo apt install mysql-server -y </b><em><br>( Installation de Mysql )</em></p>
+<p>:arrow_right: <b>  sudo apt install mysql-server -y </b><em>( Installation de Mysql )</em></p>
 
 
-<p>:arrow_right: <b>  sudo mysql -v </b><em><br>( Vérification de la version de Mysql )</em></p>
+<p>:arrow_right: <b>  sudo mysql -v </b>( Vérification de la version de Mysql )</em></p>
 
 
 <p> Nous allons procéder à la création de la base de données, pour exécuter des commandes mysql vous pouvez lancez la commande ci-dessous : </p>
@@ -105,6 +105,8 @@
 <p>:arrow_right: <b>  mysql -u root -p  </b></p>
 
 <p> Nous allons maintenant créer un utilisateur . </p>
+
+<p> Entrez <b> sudo mysql </b> pour passez le terminal en mode mysql </p>
 
 <p>:arrow_right: <b>  CREATE USER 'testuser'@'localhost'; </b></p>
 <em>Remplacez 'testuser' par le nom d'utilisateur désiré.</em>
