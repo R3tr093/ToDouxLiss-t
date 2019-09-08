@@ -1,0 +1,59 @@
+<div class="container">
+
+
+  <h2 style="text-align: center">Last update :: {{lastUpdate | async | date: 'dMMMMy'}}</h2>
+
+  <div class="row">
+   <div class="col-sm"></div>
+
+      <div class="col-sm">
+
+        <ul class="list-group">
+          
+          <app-appareil *ngFor="let appareil of appareils; let i = index"
+          
+          [appareilName]="appareil.name"
+          [appareilStatus]="appareil.status"
+          [index]="i"
+          
+          
+          >
+
+          </app-appareil>
+          
+          <button class="btn-success" 
+          
+          
+          [disabled]="!isAuth"
+          
+          (click)="onFire()"
+          
+          > 
+          
+          Allumer </button>
+
+
+          <button class="btn-warning" 
+          
+          
+          [disabled]="!isAuth"
+          
+          (click)="onShutdown()"
+          
+          > 
+          
+          Éteindre </button>
+
+
+        </ul>
+
+      
+      
+        
+
+      </div>
+
+
+  <div class="col-sm"></div>
+ </div>
+</div>
